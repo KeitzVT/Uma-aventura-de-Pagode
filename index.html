@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A busca pelo verdadeiro pagode</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <h1>A busca do Verdadeiro Pagode</h1>
+            <p>Jeferson, um amante do pagode, decide embarcar em uma jornada para encontrar a verdadeira essência dessa música. Ele ouve falar de dois lugares onde sua busca pode começar.</p>
+            <button class="btn-proximo" data-proximo="1Norte">Ir para a Zona Norte</button>
+            <button class="btn-proximo" data-proximo="1Baixada">Ir para a Baixada</button>
+        </div>
+        <div class="passo" id="passo-1Norte">
+            <h1>Zona Norte</h1>
+            <p>Jeferson chega à Zona Norte, onde encontra uma roda de pagode local. Ele se envolve na música, mas logo é desafiado a tocar um instrumento. Sua habilidade é testada.</p>
+            <button class="btn-proximo" data-proximo="1Pandeiro">Tentar tocar o pandeiro</button>
+            <button class="btn-proximo" data-proximo="1Cantar">Decidir apenas cantar</button>
+        </div>
+        <div class="passo" id="passo-1Baixada">
+            <h1>Festa da Baixada</h1>
+            <p>Na Baixada, Jeferson se depara com uma grande festa do pagode. A energia é vibrante, mas ele tem que escolher se vai explorar as rodas mais populares ou as menores, menos conhecidas.</p>
+            <button class="btn-proximo" data-proximo="1Famosa">Ir para a roda mais famosa</button>
+            <button class="btn-proximo" data-proximo="1Simples">Ir para uma roda de pagode simples</button>
+        </div>
+        <div class="passo" id="passo-1Pandeiro">
+            <h1>Desafio do Pandeiro</h1>
+            <p>Jeferson tenta tocar o pandeiro, mas parece que sua habilidade não é tao boa como ele esperava.</p>
+            <button class="btn-proximo" data-proximo="1Praticar">Continuar praticando</button>
+            <button class="btn-proximo" data-proximo="1BuscaDoMestre">Procurar por um mestre do pagode</button>
+        </div>    
+        <div class="passo" id="passo-1Cantar">
+            <h1>A essência do Pagode</h1>
+            <p>Decidindo cantar, Jeferson impressiona todos com sua voz. Mas percebe que a essência do pagode vai além da melodia.</p>
+            <button class="btn-proximo" data-proximo="1Raíses">Explorar as raíses do pagode</button>
+        </div>
+        <div class="passo" id="passo-1Famosa">
+            <h1>A roda Famosa</h1>
+            <p>A roda mais famosa é cheia de energia. Mas Jeferson acaba percebendo que a competição é bem acirrada. Ele pode tentar se destacar entre os melhores ou voltar à roda menor para uma conexão mais pessoal.</p>
+            <button class="btn-proximo" data-proximo="1Competição">Competir com os melhores</button> 
+            <button class="btn-proximo" data-proximo="1Simples">Voltar a roda menor</button>
+        </div>
+        <div class="passo" id="passo-1Simples">
+            <h1>Roda Menor</h1>
+            <p>A roda menor é mais intimista, e Jeferson se conecta profundamente com as histórias das músicas. Eles contam que à uma roda na Zona Norte em que eles sentiram verdadeiramente a essência do pagode. mas eles te convidam para fazer parte do grupo deles.</p>
+            <button class="btn-proximo" data-proximo="1Norte">Ir para Zona Norte</button>
+            <button class="btn-proximo" data-proximo="1Grupo">Fazer parte do grupo</button>
+        </div>
+        <div class="passo" id="passo-1Competição">
+            <h1>A grande competição de Pagode</h1>                                                                                                                              
+            <p>Jeferson tenta competir com os melhores mas logo percebe que a verdadeira essência do pagode não está na competição, mas na união. Ele decide abondonar a competição para encontrar um pagode mais autêntico.</p>
+            <button class="btn-proximo" data-proximo="1Simples">Buscar o pagode tradicional</button>
+        </div>
+        <div class="passo" id="passo-1Praticar">
+            <h1>Prática sem fim</h1>
+            <p>Jeferson se torna mais confiante com o pandeiro após semanas de prática intensa. Ele é convidado a tocar em uma roda de pagode ainda mais tradicional na Zona Norte, onde os mestres do samba se reúnem para compatilhar suas histórias e músicas.</p>
+            <button class="btn-proximo" data-proximo="1RodaT">Tocar na roda tradicional da Zona Norte</button> 
+        </div>
+        <div class="passo" id="passo-1RodaT">
+            <h1>A Roda Tradicional</h1>
+            <p>Jeferson finalmente chega à roda tradicional da Zona Norte, onde a verdadeira essência do pagode é mantida viva pelos mais velhos. Ele aprende com os grandes mestres e sente a força da união comunitária na música.</p>
+            <button class="btn-proximo" data-proximo="1Comunidade">Levar o pagode de volta à sua comunidade</button>
+        </div>
+        <div class="passo" id="passo-1Grupo">
+            <h1>Junção ao grupo</h1>
+            <p>Jeferson se junta ao grupo, ele vive uma vida espalhando o pagode para o mundo, enquanto participa de alguns eventos junto com seu grupo.</p>
+        </div>
+        <div class="passo" id="passo-1BuscaDoMestre">
+            <h1>O ensinamento do mestre</h1>
+            <p>Jeferson encontra um mestre do pagode, o mestre ensina não apenas a técnica do instrumento, mas a importância do respeito às raíses e à cultura do samba.</p>
+            <p>Inspirado, Jeferson recebe a oportunidade de fazer uma apresentação solo, onde pode demonstrar tudo o que aprendeu.</p>
+            <button class="btn-proximo" data-proximo="1Apresentação">Fazer uma apresentação solo tradicional</button> 
+        </div>
+        <div class="passo" id="passo-1Comunidade">
+            <h1>A Festa Comunitária</h1>
+            <p>Jeferson participa de uma festa comunitária na Zona Norte, onde músicos locais se reúnem para compatilhar seu amor pelo pagode. Ele descobre que, ali, a música é mais sobre conexão do que habilidade. Ao se sentir parte de algo maior, então Jeferson percebe que o verdadeiro pagode envolve a comunidade.</p>
+            <p>Jeferson decide-se a ficar tocando suas músicas nas comunidades, trazendo alegria e conforto para as pessoas</p>
+        </div>
+        <div class="passo" id="passo-1Apresentação">
+            <h1>A primeira Apresentação de Jeferson</h1>
+            <p>Na apresentação, Jeferson coloca muito esforço e se sai muito bem, nisso ele percebe que era aquilo que ele tanto sonhava para vida dele.</p>
+            <p>Jeferson decide seguir a carreira de cantor e vivendo uma vida onde sua música era espalhada para o mundo.</p>
+        </div>
+        <div class="passo" id="passo-1Raíses">
+            <h1>As raíses do samba</h1>
+            <p>Jeferson encontra um pagodeiro que lhe conta diversas histórias sobre o pagode, o que encanta Jeferson.</p>
+            <p>Ele fala também que uns dos lugares onde o pagode pode ser muito encantador, é nas festas de comunidade, ele descreve que nesse lugar a música e cantada com uma verdadeira paixão e simplicidade.</p>
+            <button class="btn-proximo" data-proximo="1Comunidade">Jeferson decide-se ir numa dessas festas de comunidade</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
